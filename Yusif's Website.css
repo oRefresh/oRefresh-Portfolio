@@ -1,0 +1,23 @@
+/* background stoof */
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    background-image: url("background.jpg");
+    
+    height: 70%; 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* text stoof */
+  p{
+  font-family: 'Charm', cursive;
+  }
