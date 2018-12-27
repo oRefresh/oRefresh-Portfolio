@@ -5,9 +5,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <link rel="icon" type="image/png" href="assets/oRefresh.png" />
 <link href="Yusif's Website.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=PT+Sans|Noto+Sans|Roboto+Condensed" rel="stylesheet"> 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
-</head>
+<link href="https://fonts.googleapis.com/css?family=PT+Sans|Noto+Sans|Roboto+Condensed" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"> </head>
 
 <body>
     <div class="bg-image">
@@ -20,12 +19,11 @@
             </div>
             <div class="nav-pageli">
                 <li class="nav-li">ABOUT</li>
+                <li class="nav-li">PROJECTS</li>
                 <li class="nav-li">CONTACT</li>
-                <li class="nav-li">
-                    <label class="products-button">PRODUCTS</label>
-                </li>
             </div>
         </div>
+        <br>
         <br>
         <br>
         <br>
@@ -33,42 +31,45 @@
         <br>
         <p id="abc"> oRefresh </p>
         <p id="oRefreshabout">Front End Developer</p>
-        <p id="portfolio"> What I do </p>
-        <div class="bottom-master">
-            <div class="bottomblock">
-                <img class="bottomblock-img" src="assets/Web.png">
-                <p class="bottomblock-title">Web Design</p>
-                <p class="bottomblock-desc"> Hello UwU </p>
-            </div>
-            <div class="bottomblock">
-                <img class="bottomblock-img" src="assets/HTML.png">
-                <p class="bottomblock-title">HTML</p>
-                <p class="bottomblock-desc"> Big UwU </p>
-            </div>
-            <div class="bottomblock">
-                <img class="bottomblock-img" src="assets/Design.png">
-                <p class="bottomblock-title">GFX Design</p>
-                <p class="bottomblock-desc"> Special UwU </p>
-            </div>
+        <div id="top-browse"><a target="_blank" href="https://orefresh.github.io/oRefresh-Portfolio/" class="banner-button">Browse</a></div>
+    </div>
+    <p id="portfolio"> What I do </p>
+    <div class="bottom-master">
+        <div class="bottomblock">
+            <img class="bottomblock-img" src="assets/Web.png">
+            <p class="bottomblock-title">Web Design</p>
+            <p class="bottomblock-desc"> Hello UwU </p>
         </div>
-        <div class="nameithere" style="text-align: center">
-            <p class="banner-title">Browse my other work</p>
-            <br> 
-            <a target="_blank" href="https://orefresh.github.io/oRefresh-Portfolio/" class="banner-button">Browse</a>
+        <div class="bottomblock">
+            <img class="bottomblock-img" src="assets/HTML.png">
+            <p class="bottomblock-title">HTML</p>
+            <p class="bottomblock-desc"> Big UwU </p>
         </div>
+        <div class="bottomblock">
+            <img class="bottomblock-img" src="assets/Design.png">
+            <p class="bottomblock-title">GFX Design</p>
+            <p class="bottomblock-desc"> Special UwU </p>
+        </div>
+    </div>
+    <div class="nameithere" style="text-align: center">
+        <p class="banner-title">Browse my other work</p>
         <br>
-        <div class="about" style="text-align: center">
-            <i class="far fa-user" id="small-pp"></i>
-            <p class="aboutmetitle">About me</p>
-            <br>
-            <div class="aboutme">
-                <img class="aboutme-img" src="assets/usflagicon.png">
-                <p class="aboutme-section-title">Yusif Shawish</p>
-                <p class="aboutme-section-desc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
-            </div>
+        <a target="_blank" href="https://orefresh.github.io/oRefresh-Portfolio/" class="banner-button">Browse</a>
+    </div>
+    <br>
+    <div class="about" style="text-align: center">
+        <i class="far fa-user" id="small-pp"></i>
+        <p class="aboutmetitle">About me</p>
+        <br>
+        <div class="aboutme">
+            <img class="aboutme-img" src="assets/usflagicon.png">
+            <p class="aboutme-section-title">Yusif Shawish</p>
+            <p class="aboutme-section-desc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
         </div>
-</div>
+    </div>
+    </div>
 </body>
+
 </html>
 <style>
     body,
@@ -82,6 +83,7 @@
         position: relative;
         text-align: center;
         font-family: 'Roboto Condensed', cursive;
+        margin: 0px;
     }
 
     * {
@@ -98,7 +100,7 @@
 
     .bg-image {
         background-image: url("assets/Background.jpg");
-        height: 70%;
+        height: 110%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -110,7 +112,7 @@
         position: relative;
         text-align: center;
         font-family: 'PT Sans', cursive;
-        height: 60%;
+        margin: 0px;
     }
 
     p {
@@ -133,7 +135,7 @@
         font-weight: bold;
         text-align: center;
         letter-spacing: 2px;
-        font-family: 'Roboto Mono';
+        font-family: 'PT Sans';
     }
 
     #nav-logo {
@@ -209,67 +211,80 @@
         height: 150px;
         width: 100%;
     }
-    .banner-title{
+
+    .banner-title {
         color: #fff;
         font-size: 50px;
         font-family: 'Noto Sans' cursive;
         height: 50px;
     }
-    .banner-button {
-    border: 3px solid white;
-    display: inline-block;
-    padding: 14px 28px;
-    cursor: pointer;   
-    font-size: 15px;
-    font-family: 'Roboto Mono';
-    color: #fff;
-    border-radius: 5px;
-    
-}
-.aboutmetitle {
-    font-size: 55px;
-    font-weight: bold;
-    font-family: 'Noto Sans';
-    margin-bottom: 10px;
-    display: inline-block;
-    color: rgb(51, 51, 51);
-}
 
-.aboutme{
-    width: 350px;
-    height: 200px;
-    padding: 10px 0px;
-}
-.aboutme-img{
-    height: 50px;
-    width: 70px;
-    margin: 10px;
-    margin-left: 30px;
-    display: block;
-}
-.aboutme-section-title{
-    font-family: 'Robto Mono';
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    margin-left: 40px;
-    display: block;
-    text-align: left;
-}
-.aboutme-section-desc{
-    font-family: 'Noto Sans';
-    color: rgb(56, 56, 56);
-    font-size: 16px;
-    margin-left: 40px;
-    display: block;
-    text-align: left;
-    max-width: 275px;
-}
-.aboutme:hover{
-     transform: scale(1.02);
-}
-#small-pp{
-    font-size: 35px;
-    margin: 10px;
+    .banner-button {
+        border: 3px solid white;
+        display: inline-block;
+        padding: 14px 28px;
+        cursor: pointer;
+        font-size: 15px;
+        font-family: 'Noto Sans';
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    .aboutmetitle {
+        font-size: 55px;
+        font-weight: bold;
+        font-family: 'Noto Sans';
+        margin-bottom: 10px;
+        display: inline-block;
+        color: rgb(51, 51, 51);
+    }
+
+    .aboutme {
+        width: 350px;
+        height: 200px;
+        padding: 10px 0px;
+    }
+
+    .aboutme-img {
+        height: 50px;
+        width: 70px;
+        margin: 10px;
+        margin-left: 30px;
+        display: block;
+    }
+
+    .aboutme-section-title {
+        font-family: 'Robto Mono';
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 40px;
+        display: block;
+        text-align: left;
+    }
+
+    .aboutme-section-desc {
+        font-family: 'Noto Sans';
+        color: rgb(56, 56, 56);
+        font-size: 16px;
+        margin-left: 40px;
+        display: block;
+        text-align: left;
+        max-width: 275px;
+    }
+
+    .aboutme:hover {
+        transform: scale(1.02);
+    }
+
+    #small-pp {
+        font-size: 35px;
+        margin: 10px;
+    }
+
+    #top-browse { 
+        text-align: center; 
+        margin: 50px 10px; 
+        font-family: 'Noto Sans', arial, sans-serif;
     }
 </style>
