@@ -3,7 +3,7 @@
 <title> oRefresh </title>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<link rel="icon" type="image/png" href="oRefresh.png" />
+<link rel="icon" type="image/png" href="assets/oRefresh.png" />
 <link href="Yusif's Website.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Noto+Sans|Roboto+Condensed" rel="stylesheet"> </head>
 
@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="nameithere">
-            <p>hey there</p>
+            <p id="banner">hey there</p>
             <br> </div>
     </div>
 </body>
@@ -190,12 +190,19 @@
 
     .nameithere {
         background: #e96443;
-        /* fallback for old browsers */
         background: -webkit-linear-gradient(to top, #8B3D61, #e96443);
-        /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to top, #8B3D61, #F86A60);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         height: 150px;
         width: 100%;
     }
+    #banner{
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Noto Sans' cursive;
+        position: relative;
+        height: 50px;
+    }
+
+
 </style>
