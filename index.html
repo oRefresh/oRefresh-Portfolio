@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title> oRefresh </title>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <link rel="icon" type="image/png" href="assets/oRefresh.png" />
 <link href="Yusif's Website.css" rel="stylesheet">
@@ -19,7 +19,7 @@
                 </li>
             </div>
             <div class="nav-pageli">
-                <li class="nav-li">ABOUT</li>
+                <a class="nav-li" href="#xyz">ABOUT</a>
                 <li class="nav-li">PROJECTS</li>
                 <li class="nav-li">CONTACT</li>
             </div>
@@ -44,7 +44,7 @@
             <img src="assets/arrow.png" id="arrowdown">
         </div>
     </div>
-    
+   
     
     <div style="text-align: center">
     <i class="far fa-bookmark" id="small-pp2"></i>
@@ -81,10 +81,14 @@
             <img class="aboutme-img" src="assets/usflagicon.png">
             <p class="aboutme-section-title">Yusif Shawish</p>
             <p class="aboutme-section-desc">I like to play videogames, code and look at tech stuff. Like computer specs and peripherals.</p>
+            <div id="xyz"></div>
         </div>
     </div>
     <canvas id="pixie" width="638" height="1325" display="inline-block"></canvas>
-    
+    <div class="contact" style="text-align:center">
+        <i class="far fa-envelope" id="contactme-img"></i>
+        <p class="contactme">Contact me</p>
+    </div>
 </div>
 </body>
 </html>
@@ -137,13 +141,12 @@
     }
 
     #portfolio {
-        font-size: 50px;
-        color: black;
-        position: relative;
-        text-align: center;
-        font-family: 'Noto Sans', cursive;
-        display: inline-block;
-    }
+        font-size: 55px;
+    font-weight: bold;
+    font-family: 'Noto Sans';
+    margin-bottom: 10px;
+    display: inline-block;
+    color: rgb(51, 51, 51);
 
     .nav-li {
         display: inline-block;
@@ -401,6 +404,26 @@ footer {
     margin-right: auto;
     width: 500px;
 }
+.contactme{
+    font-size: 55px;
+        font-weight: bold;
+        font-family: 'Noto Sans';
+        margin-bottom: 10px;
+        display: inline-block;
+        color: rgb(51, 51, 51);
+}
+#contactme-img{
+    height: 50px;
+        width: 70px;
+        margin: 10px;
+        margin-left: 30px;
+        display: block;
+        text-align: center;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+
+}
 </style>
 
 
@@ -485,5 +508,16 @@ var WIDTH;
     this.getX = function () { return this.x; }
     this.getY = function () { return this.y; }
   }
+  $('a[href^="#"]').on('click', function(event) {
+    
+    var target = $(this.getAttribute('href'));
 
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+
+});
 </script>
