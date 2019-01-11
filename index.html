@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title> oRefresh </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <link rel="icon" type="image/png" href="assets/oRefresh.png" />
 <link href="Yusif's Website.css" rel="stylesheet">
@@ -9,111 +10,115 @@
 </head>
 
 <body>
-    <div class="background">
-        <div class="navbar-master">
-            <div class="navbar">
-                <img id="nav-logo" src="assets/logo.png" />
-                <li class="nav-li">
-                    <p id="sconostudios">oRefresh</p>
-                </li>
-            </div>
-            <div class="nav-pageli">
-                <a class="nav-li" href="#xyz">ABOUT</a>
-                <a class="nav-li" href="#yxz">PROJECTS<a>
-                <a class="nav-li" href="#zyx">CONTACT</a>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p id="abc"> oRefresh </p>
-        <p id="oRefreshabout">Front End Developer</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div id="top-browse" style="text-align: center"><p id="below">Check Down Below</p></div>
-        <br>
-        <br>
-        <br>
-        <div class="bounce" style="text-align:center">
-            <img src="assets/arrow.png" id="arrowdown">
-        </div>
-    </div>
-   
-    
-    <div style="text-align: center">
-    <i class="far fa-bookmark" id="small-pp2"></i>
-    <p id="portfolio"> What I do </p>
-    </div>
-    <div class="bottom-master">
-        <div class="bottomblock">
-            <img class="bottomblock-img" src="assets/Web.png">
-            <p class="bottomblock-title">Web Design</p>
-            <p class="bottomblock-desc"> I design and create websites. </p>
-        </div>
-        <div class="bottomblock">
-            <img class="bottomblock-img" src="assets/HTML.png">
-            <p class="bottomblock-title">HTML</p>
-            <p class="bottomblock-desc"> I use HTML and CSS to make my websites.</p>
-        </div>
-        <div class="bottomblock">
-            <img class="bottomblock-img" src="assets/Design.png">
-            <p class="bottomblock-title">GFX Design</p>
-            <p class="bottomblock-desc"> I know a little bit about GFX design. </p>
-        </div>
-    </div>
-    <div class="nameithere" style="text-align: center">
-        <p class="banner-title">Browse my other work</p>
-        <br>
-        <a target="_blank" href="https://github.com/oRefresh?tab=repositories" class="banner-button">Browse</a>
-    </div>
-    <br>
-    <div class="about" style="text-align: center">
-        <i class="far fa-user small-pp"></i>
-        <p class="aboutmetitle">About me</p>
-        <br>
-        <br>
-        <div class="aboutme" style="text-align: center">
-            <img class="aboutme-img" src="assets/usflagicon.png">
-            <p class="aboutme-section-title">Yusif Shawish</p>
-            <p class="aboutme-section-desc">I like to play videogames, code and look at tech stuff. Like computer specs and peripherals.</p>
-            <div id="xyz"></div>
-        </div>
-    </div>
-    <canvas id="pixie" width="638" height="1325" display="inline-block"></canvas>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="project" style="text-align:center">
-            <i class="fas fa-chart-line small-pp" class="project-img"></i>
-            <p class="project-title">Projects</p>
-            <p class="project-desc"> <u>Upcoming Projects</u> <a href="https://orefresh.github.io/Fresh-Music"></a></p>
-            <a id="project-links" target="_blank" href="https://orefresh.github.io/Fresh-Music/">Fresh Music</a>
-            <div id="yxz"></div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="contact" style="text-align: center">
-        <i class="far fa-envelope small-pp"></i>
-        <p class="contactme">Contact me</p>
-        <br>
-        <i class="fas fa-envelope"></i>
-        <p class="contactme-info">yusifshawish@orefresh.io</p>
-        <i class="fab fa-twitter"></i>
-        <p class="contactme-info">Refreshplays</p>
-        <i class="fab fa-snapchat-ghost"></i>
-        <p class="contactme-info">yusif_shawish</p>
-        <i class="fab fa-github"></i>
-        <p class="contactme-info">oRefresh</p>
-        <div id="zyx"></div>
-    </div>
+<div class="background">
+<div class="navbar-master">
+<div class="navbar"> 
+ <li class="nav-li">
+ 
+ </li>
+</div>
+<div class="nav-pageli" style="text-align:center">
+<a class="nav-li" href="#xyz">ABOUT</a>
+<a class="nav-li" href="https://github.com/oRefresh?tab=repositories">PROJECTS<a></a>
+<img id="nav-logo" src="assets/logo.png" />
+<a href="mailto:yusifshawish@orefresh.io" class="nav-li">Contact</a>
+<a class="nav-li" href="#zyx">OTHER</a>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p id="abc"> oRefresh </p>
+<p id="oRefreshabout">Front End Developer</p>
+<br>
+<br>
+<br>
+<br>
+<div id="top-browse" style="text-align: center"><p id="below">Check Down Below</p></div>
+<br>
+<br>
+<br>
+<div class="bounce" style="text-align:center">
+    <img src="assets/arrow.png" id="arrowdown">
+</div>
+</div>
+
+<div style="text-align: center">
+<i class="far fa-bookmark" id="small-pp2"></i>
+<p id="portfolio"> What I do </p>
+</div>
+<div class="bottom-master">
+<div class="bottomblock">
+<img class="bottomblock-img" src="assets/Web.png">
+<p class="bottomblock-title">Web Design</p>
+<p class="bottomblock-desc"> I design and create websites. </p>
+</div>
+<div class="bottomblock">
+<img class="bottomblock-img" src="assets/HTML.png">
+<p class="bottomblock-title">HTML</p>
+<p class="bottomblock-desc"> I use HTML and CSS to make my websites.</p>
+</div>
+<div class="bottomblock">
+<img class="bottomblock-img" src="assets/Design.png">
+<p class="bottomblock-title">GFX Design</p>
+<p class="bottomblock-desc"> I know a little bit about GFX design. </p>
+</div>
+</div>
+<div class="nameithere" style="text-align: center">
+<p class="banner-title">Browse my other work</p>
+<br>
+<a target="_blank" href="https://github.com/oRefresh?tab=repositories" class="banner-button">Browse</a>
+</div>
+<br>
+<div class="about" style="text-align: center">
+<i class="far fa-user small-pp"></i>
+<p class="aboutmetitle">About me</p>
+<br>
+<br>
+<div class="aboutme" style="text-align: center">
+    <img class="aboutme-img" src="assets/usflagicon.png">
+    <p class="aboutme-section-title">Yusif Shawish</p>
+    <p class="aboutme-section-desc">I'm a frontend developer who designs and creates websites. I also work with other developers on diffrent projects. Check my work down below</p>
+    <div id="xyz"></div>
+</div>
+</div>
+
+<canvas id="pixie" width="638" height="1325" display="inline-block"></canvas>
+<br>
+<br>
+<br>
+<br>
+<div class="project" style="text-align:center">
+<i class="fas fa-chart-line small-pp" class="project-img"></i>
+<p class="project-title">What I have Made</p>
+<br>
+<a id="project-links" target="_blank" href="https://orefresh.github.io/Fresh-Music/">Fresh Music (Work in progress)</a>
+<div id="yxz"></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="contact" style="text-align: center">
+<i class="far fa-envelope small-pp"></i>
+<p class="contactme">Contact me</p>
+<br>
+<i class="fas fa-envelope" id="email" ></i>
+<p class="contactme-info">yusifshawish@orefresh.io</p>
+<br>
+<i class="fab fa-twitter" class="contact-img"></i>
+<p class="contactme-info " >Refreshplays</p>
+<br>
+<i class="fab fa-snapchat-ghost 3" class="contact-img"></i>
+<p class="contactme-info">yusif_shawish</p>
+<br>
+<i class="fab fa-github 4"class="contact-img"></i>
+<p class="contactme-info" >oRefresh</p>
+<div id="zyx"></div>
+</div>
 </div>
 </body>
 </html>
@@ -267,9 +272,9 @@
         background: #1f4037;  
     background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  
     background: linear-gradient(to right, #99f2c8, #1f4037);
-
         height: 150px;
         width: 100%;
+        
     }
 
     .banner-title {
@@ -469,16 +474,17 @@
 
 }
 .contactme-info{
+font-family: 'Noto Sans';
+    color: rgb(56, 56, 56);
+    font-size: 16px;
+    display: inline-block;
+}
+#project-links{
     font-family: 'Noto Sans';
-        color: rgb(56, 56, 56);
-        font-size: 16px;
-        
-    }
-    #project-links{
-        font-family: 'Noto Sans';
-        color: rgb(56, 56, 56);
-        font-size: 16px;
-    }
+    color: rgb(56, 56, 56);
+    font-size: 16px;
+}
+
 </style>
 
 
