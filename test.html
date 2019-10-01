@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title> oRefresh </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="icon" type="image/png" href="assets/pfp.jpg" />
+<link href=test.css Website.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans|Noto+Sans|Roboto+Condensed|Roboto+Mono" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"> 
+</head>
+<p> What who are you? What are you doing here? How did you get here? </p>
+<div class="button">
+<button class="button"onclick="typeWriter()" >Uhh... I dont really know.</button> <button class="button" onclick="typeWriter()">I was sent to this place. What is this place anyway?</button>
+<p id="one"></p>
+<button id="b1" class="hidden"  href="https://www.w3schools.com/html/">hello</button>
+
+<script>
+var i = 0;
+var txt = 'Ugh.. It doesnt matter you need to leave right now.' ;
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("one").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+  else{
+    setTimeout(function(){
+    var element = document.getElementById("b1");
+  element.classList.toggle("show");}, 100)
+  }
+}
+/*document.getElementById("home").onclick = function(){
+  window.location.href = "index.html";
+} */
+
+
+</script>
+</body>
+</html>
