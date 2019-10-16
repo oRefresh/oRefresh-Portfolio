@@ -16,7 +16,7 @@
 <p id="two"></p>
 
 <script>
-var speed = 50;
+var speed = 25;
 var i = 0;
 
 function f0() {
@@ -44,13 +44,13 @@ document.getElementById("b1").onclick = function(){
 } 
 
 function f1() {
-var txt = "NONONONONO WHAT ARE YOU DOING"
+var txt = 'NONONONONO WHAT ARE YOU DOING.' ;
   
-  if (i < txt.length) {
+if (i < txt.length) {
     document.getElementById("two").innerHTML += txt.charAt(i);
     i++;
     setTimeout(f1, speed);
-  }
+  } 
  
 }
 
