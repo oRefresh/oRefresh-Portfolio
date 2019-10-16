@@ -35,7 +35,7 @@ p{font-family:'PT Sans',cursive}
 .bottomblock:hover{transform:scale(1.02)}
 .bottomblock{width:350px;height:250px;padding:5px;text-align:center}
 .bottom-master{text-align:center}
-.banner{margin-top: 40px; background:#0F827B;background:-webkit-linear-gradient(to right,#1A8A84 #A3D6D1);background:linear-gradient(to right,#1A8A84 #A3D6D1);padding:14px 28px;width:100%}
+.banner {margin-top: 40px; background:#0F827B;background:-webkit-linear-gradient(to right,#1A8A84 #A3D6D1);background:linear-gradient(to right,#1A8A84 #A3D6D1);padding:14px 28px;width:100%}
 .banner-title{color:#fff;font-size:50px;font-family:'Noto Sans' cursive;height:50px}
 .banner-button{border:3px solid #fff;display:inline-block;padding:14px 28px;cursor:pointer;font-size:15px;font-family:'Roboto Mono';color:#fff;border-radius:5px;display:inline-block;margin-left:auto;margin-right:auto;margin-top:10px}
 .aboutmetitle{font-size:55px;font-weight:700;font-family:'Noto Sans';margin-bottom:10px;display:inline-block;color:#333;margin-top:10px}
