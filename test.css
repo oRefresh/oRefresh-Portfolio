@@ -1,8 +1,12 @@
 .hidden {
     display: none;
-    margin-top: 10px;
-    margin-bottom: 20px;
+   
 }
 .show {
    display: inline-flex;
+}
+
+.button{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

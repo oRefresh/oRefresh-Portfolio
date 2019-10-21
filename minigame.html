@@ -10,11 +10,12 @@
 </head>
 <p> What who are you? What are you doing here? How did you get here? </p>
 <div class="button">
-<button class="button"onclick="f0()" >Uhh... I dont really know.</button> <button class="button" onclick="f0()">I was sent to this place. What is this place anyway?</button>
-<p id="one"></p>
-<button id="b1" class="hidden">*Leave*</button> <button id="b2" class="hidden" onclick="f1()">*Activiate Destruction Protocol*</button>
-<p id="two"></p>
-
+<button onclick="f0()" >Uhh... I dont really know.</button> <button class="button" onclick="f0()">I was sent to this place. What is this place anyway?</button>
+<p id="p1"></p>
+<button id="b1" class="hidden">*Leave*</button> <button id="b2" class="hidden" onclick="myfunction()">*Activiate Destruction Protocol*</button>
+<p id="p2"></p>
+<button id="b3" class="hidden">*Leave*</button> <button id="b4" class="hidden" onclick="myfunction()">*Activiate Destruction Protocol*</button>
+</div>
 <script>
 var speed = 25;
 var i = 0;
@@ -23,7 +24,7 @@ function f0() {
 var txt = 'Ugh.. It doesnt matter you need to leave right now.' ;
 
   if (i < txt.length) {
-    document.getElementById("one").innerHTML += txt.charAt(i);
+    document.getElementById("p1").innerHTML += txt.charAt(i);
     i++;
     setTimeout(f0, speed);
   }
@@ -43,15 +44,24 @@ document.getElementById("b1").onclick = function(){
   window.location.href = "index.html";
 } 
 
-function f1() {
-var txt = 'NONONONONO WHAT ARE YOU DOING.' ;
+function myfunction() {
+var txt = 'NONONONONO WHAT ARE YOU DOING.' 
   
 if (i < txt.length) {
-    document.getElementById("two").innerHTML += txt.charAt(i);
+    document.getElementById("p2").innerHTML += txt.charAt(i);
     i++;
     setTimeout(f1, speed);
   } 
- 
+  else{
+    setTimeout(function(){
+    var element = document.getElementById("b3");
+    var element2 = document.getElementById("b4");
+  element.classList.toggle("show")
+  
+  element2.classList.toggle("show");},100);
+
+    }
+  
 }
 
 </script>
