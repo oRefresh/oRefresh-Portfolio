@@ -1,8 +1,9 @@
 body,html{height:100%}
+/* CSS for opening page */
 #abc{font-size:66px;color:#fff;position:relative;text-align:center;font-family:'Roboto Condensed',cursive;margin:0;mix-blend-mode:screen}
 *{box-sizing:border-box}
 .bg-image{padding:0;margin:0;background-repeat:no-repeat;background-size:100% 100%;background-position:left top,right top}
-.background{background-image:url(assets/background.jpg);height:110%;background-position:center;background-repeat:no-repeat;background-size:cover}
+.background{background-image:url(assets/IMG_0922\ \(003\).jpg);height:110%;background-position:center;background-repeat:no-repeat;background-size:cover}
 #oRefreshabout{font-size:56px;color:#fff;position:relative;text-align:center;font-family:'PT Sans',cursive;margin:0;margin-bottom:75px;mix-blend-mode:screen}
 p{font-family:'PT Sans',cursive}
 #portfolio{font-size:55px;font-weight:700;font-family:'Noto Sans';margin-bottom:10px;display:inline-block;color:#333}
@@ -28,6 +29,7 @@ p{font-family:'PT Sans',cursive}
 60%{-moz-transform:translateY(-15px);-ms-transform:translateY(-15px);-webkit-transform:translateY(-15px);transform:translateY(-15px)}
 }
 .navbar-master{text-align:center;margin-right:80px}
+/* 3 icons section */
 .bottomblock-img{height:150px;width:150px}
 .bottomblock,.bottomblock-about{background:#fff;color:#000;display:inline-block;margin:15px 10px;border-radius:5px}
 .bottomblock-title{font-weight:700;font-family:'Roboto Mono'}
@@ -35,7 +37,11 @@ p{font-family:'PT Sans',cursive}
 .bottomblock:hover{transform:scale(1.02)}
 .bottomblock{width:350px;height:250px;padding:5px;text-align:center}
 .bottom-master{text-align:center}
-.banner{margin-top:40px;background:#0F827B;background:-webkit-linear-gradient(to right,#1A8A84 #A3D6D1);background:linear-gradient(to right,#1A8A84 #A3D6D1);padding:14px 28px;width:100%}
+.banner{margin-top:40px;background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    ;padding:14px 28px;width:100%}
 .banner-title{color:#fff;font-size:50px;font-family:'Noto Sans' cursive;height:50px}
 .banner-button{border:3px solid #fff;display:inline-block;padding:14px 28px;cursor:pointer;font-size:15px;font-family:'Roboto Mono';color:#fff;border-radius:5px;display:inline-block;margin-left:auto;margin-right:auto;margin-top:10px}
 .aboutmetitle{font-size:55px;font-weight:700;font-family:'Noto Sans';margin-bottom:10px;display:inline-block;color:#333;margin-top:10px}
@@ -44,8 +50,8 @@ p{font-family:'PT Sans',cursive}
 .aboutme-section-title{font-family:'Robto Mono';color:#000;font-weight:700;font-size:18px;display:block;text-align:center}
 .aboutme-section-desc{font-family:'Noto Sans';color:#383838;font-size:16px;display:block;text-align:center;max-width:275px;margin-bottom:10px}
 .aboutme:hover{transform:scale(1.02)}
-.small-pp{font-size:35px;margin:10px}
-#small-pp2{font-size:35px;margin:10px;display:inline-block}
+.favicon{font-size:35px;margin:10px}
+#favicon-2{font-size:35px;margin:10px;display:inline-block}
 #pixie{position:absolute;pointer-events:none;top:0;display:inline-block;width:100%;left:0}
 #arrowdown{height:40px;width:40px}
 .bounce{-moz-animation:bounce 2s infinite;-webkit-animation:bounce 2s infinite;animation:bounce 2s infinite}
