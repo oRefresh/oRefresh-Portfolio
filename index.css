@@ -7,7 +7,7 @@ body,html{height:100%}
 #oRefreshabout{font-size:56px;color:#fff;position:relative;text-align:center;font-family:'PT Sans',cursive;margin:0;margin-bottom:75px;mix-blend-mode:screen}
 p{font-family:'PT Sans',cursive}
 #portfolio{font-size:55px;font-weight:700;font-family:'Noto Sans';margin-bottom:10px;display:inline-block;color:#333}
-.nav-li{display:inline-block;margin:15px 30px;font-size:16px;color:#fff;font-weight:700;text-align:center;letter-spacing:2px;font-family:'PT Sans'}
+.nav-li,.nav-li:hover{display:inline-block;margin:15px 30px;font-size:16px;color:#fff;font-weight:700;text-align:center;letter-spacing:2px;font-family:'PT Sans'}
 #nav-logo{height:75px;width:200px;vertical-align:middle}
 #nav-logo2{height:300px;width:300px;margin-top:12vh}
 .nav-pageli{display:inline-block;text-align:center;margin-left:-20px;margin-bottom:160px}
@@ -43,7 +43,7 @@ p{font-family:'PT Sans',cursive}
     
     ;padding:14px 28px;width:100%}
 .banner-title{color:#fff;font-size:50px;font-family:'Noto Sans' cursive;height:50px}
-.banner-button{border:3px solid #fff;display:inline-block;padding:14px 28px;cursor:pointer;font-size:15px;font-family:'Roboto Mono';color:#fff;border-radius:5px;display:inline-block;margin-left:auto;margin-right:auto;margin-top:10px}
+.banner-button,.banner-button:hover{ border:3px solid #fff;display:inline-block;padding:14px 28px;cursor:pointer;font-size:15px;font-family:'Roboto Mono';color:#fff;border-radius:5px;display:inline-block;margin-left:auto;margin-right:auto;margin-top:10px}
 .aboutmetitle{font-size:55px;font-weight:700;font-family:'Noto Sans';margin-bottom:10px;display:inline-block;color:#333;margin-top:10px}
 .aboutme{width:250px;height:200px;padding:10px 0;display:inline-block;margin-left:auto;margin-right:auto;background:#fff}
 .aboutme-img{height:50px;width:70px;margin:10px;margin-left:30px;display:block;text-align:center;display:inline-block;margin-left:auto;margin-right:auto}
