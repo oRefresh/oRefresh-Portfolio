@@ -4,7 +4,7 @@ body,html{height:100%}
 *{box-sizing:border-box}
 .bg-image{padding:0;margin:0;background-repeat:no-repeat;background-size:100% 100%;background-position:left top,right top}
 .background{background-image:url(assets/IMG_0922\ \(003\).jpg);height:110%;background-position:center;background-repeat:no-repeat;background-size:cover}
-#oRefreshabout{font-size:56px;color:#fff;position:relative;text-align:center;font-family:'PT Sans',cursive;margin:0;margin-bottom:75px;mix-blend-mode:screen}
+#cba{font-size:56px;color:#fff;position:relative;text-align:center;font-family:'PT Sans',cursive;margin:0;margin-bottom:75px;mix-blend-mode:screen}
 p{font-family:'PT Sans',cursive}
 #portfolio{font-size:55px;font-weight:700;font-family:'Noto Sans';margin-bottom:10px;display:inline-block;color:#333}
 .nav-li,.nav-li:hover{display:inline-block;margin:15px 30px;font-size:16px;color:#fff;font-weight:700;text-align:center;letter-spacing:2px;font-family:'PT Sans'}
