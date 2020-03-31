@@ -76,3 +76,5 @@ from{opacity:0}
 to{opacity:1}
 }
 #fade-in{opacity:0;animation:fadeIn ease-in 1;animation-fill-mode:forwards;animation-duration:2s}
+#login-bg{background-image:url(assets/background.jpg);height:110%; width: 5000% ;background-position:center;background-repeat:no-repeat;}
+#surf{background-image:url(assets/images.jfif);height:110%;;background-position:center;background-repeat:no-repeat; background-size:cover}
