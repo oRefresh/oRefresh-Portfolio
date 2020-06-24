@@ -8,14 +8,16 @@
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Noto+Sans|Roboto+Condensed|Roboto+Mono" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"> 
 </head>
+<body id="IMP">
 <p> What who are you? What are you doing here? How did you get here? </p>
-<div class="button">
-<button onclick="f0()" >Uhh... I don't really know.</button> <button class="button" onclick="f0()">I was sent to this place. What is this place anyway?</button>
+<div>
+<button class="button" onclick="f0()" >Uhh... I don't really know.</button> <button class="button" onclick="f0()">I was sent to this place. What is this place anyway?</button>
 <p id="p1"></p>
 <button id="b1" class="hidden">*Leave*</button> <button id="b2" class="hidden" onclick="f1()">*Activiate Destruction Protocol*</button>
 <p id="p2"></p>
 <button id="b3" class="hidden">*Actually leave and stop messing things up*</button> <button id="b4" class="hidden" onclick="f1()">*Further break things more and more*</button>
 </div>
+</body>
 <script>
 var speed = 25;
 var i = 0;
@@ -44,12 +46,16 @@ document.getElementById("b1").onclick = function(){
   window.location.href = "index.html";
 } 
 
+  
+
+s = 0
 function f1() {
 var txt = 'NONONONONO WHAT ARE YOU DOING?!' 
+
   
-if (i < txt.length) {
-    document.getElementById("p2").innerHTML += txt.charAt(i);
-    i++;
+if (s < txt.length) {
+    document.getElementById("p2").innerHTML += txt.charAt(s);
+    s++;
     setTimeout(f1, speed);
   } 
   else{
