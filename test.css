@@ -6,7 +6,13 @@
    display: inline-flex;
 }
 
-.button{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+.button{background: green;}
+.button:hover{background-color: lightgreen;}
+#b2 {background-color: #f44336; color: white;}
+#b2:hover {background: lightcoral;}
+#b1 {background-color: blue; color: white  ;}
+#b1:hover {background: lightblue;}
+#b4 {background-color: #f44336; color: white;}
+#b4:hover {background: lightcoral;}
+#b3 {background-color: blue; color: white  ;}
+#b3:hover {background: lightblue;}
