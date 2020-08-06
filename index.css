@@ -1,5 +1,8 @@
 body,html{height:100%}
 /* CSS for opening page */
+body::-webkit-scrollbar{width: 0.25rem;}
+body::-webkit-scrollbar-track{background: black;}
+body::-webkit-scrollbar-thumb{background: #FF8AC4;}
 #abc{font-size:66px;color:#fff;position:relative;text-align:center;font-family:'Roboto Condensed',cursive;margin:0;mix-blend-mode:screen}
 *{box-sizing:border-box}
 .bg-image{padding:0;margin:0;background-repeat:no-repeat;background-size:100% 100%;background-position:left top,right top}
