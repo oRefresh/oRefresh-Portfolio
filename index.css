@@ -1,4 +1,15 @@
 body,html{height:100%}
+body::-webkit-scrollbar {
+	width: 0.25rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: #1e1e24;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background: #7F00FF;
+  }
 /* CSS for opening page */
 #abc{font-size:66px;color:#fff;position:relative;text-align:center;font-family:'Roboto Condensed',cursive;margin:0;mix-blend-mode:screen}
 *{box-sizing:border-box}
@@ -68,7 +79,7 @@ p{font-family:'PT Sans',cursive}
 .cr{padding-top:30px;clear:both;color:lightgray}
 .title-404{text-align:center;font-size:25px;font-family:'Noto Sans';margin-top:50px}
 .desc-404{text-align:center;font-size:15px;font-family:'Noto Sans';margin-top:50px;color:gray}
-.img-404{text-align:center;height:200px;width:200px}
+.img-404{text-align:center;height:200px;width:200px}                                                        
 .f404{text-align:center}
 #home{font-family:'Noto Sans'}
 @keyframes fadeIn {
@@ -77,4 +88,3 @@ to{opacity:1}
 }
 #fade-in{opacity:0;animation:fadeIn ease-in 1;animation-fill-mode:forwards;animation-duration:2s}
 #login-bg{background-image:url(assets/background.jpg);height:110%; width: 5000% ;background-position:center;background-repeat:no-repeat;}
-#surf{background-image:url(assets/images.jfif);height:110%;;background-position:center;background-repeat:no-repeat; background-size:cover}
