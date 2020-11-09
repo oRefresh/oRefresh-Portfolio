@@ -46,26 +46,27 @@ function draw() {
     b.length && (a.preventDefault(), $("html, body").stop().animate({
       scrollTop: b.offset().top
     }, 1e3))
-  }), document.getElementById("home").onclick = function() {
+  }), 
+  document.getElementById("home").onclick = function() {
     window.location.href = "minigame.html"
   }, window.onbeforeunload = function() {
     window.scrollTo && window.scrollTo(0, 0)
   }, history && history.scrollRestoration && (history.scrollRestoration = "manual");
   var s = 0;
   window.onload = function a() {
-    var b = 100,
+    var b = 50,
       c = "Yusif Shawish";
     s < c.length && (document.getElementById("abc").innerHTML += c.charAt(s), s++, setTimeout(a, b))
   };
   var i = 0;
   setTimeout(function b() {
-    var a = 100,
+    var a = 50,
       c = "Front End Developer";
     i < c.length && (document.getElementById("cba").innerHTML += c.charAt(i), i++, setTimeout(b, a))
   }, 1850);
   var l = 0;
   setTimeout(function c() {
-    var a = 120,
+    var a = 60,
       b = "Check Down Below";
     l < b.length && (document.getElementById("below").innerHTML += b.charAt(l), l++, setTimeout(c, a))
   }, 3770);
