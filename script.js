@@ -54,19 +54,19 @@ function draw() {
   }, history && history.scrollRestoration && (history.scrollRestoration = "manual");
   var s = 0;
   window.onload = function a() {
-    var b = 50,
+    var b = 100,
       c = "Yusif Shawish";
     s < c.length && (document.getElementById("abc").innerHTML += c.charAt(s), s++, setTimeout(a, b))
   };
   var i = 0;
   setTimeout(function b() {
-    var a = 50,
+    var a = 100,
       c = "Front End Developer";
     i < c.length && (document.getElementById("cba").innerHTML += c.charAt(i), i++, setTimeout(b, a))
   }, 1850);
   var l = 0;
   setTimeout(function c() {
-    var a = 60,
+    var a = 120,
       b = "Check Down Below";
     l < b.length && (document.getElementById("below").innerHTML += b.charAt(l), l++, setTimeout(c, a))
   }, 3770);
